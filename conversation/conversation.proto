@@ -16,7 +16,7 @@ syntax = "proto3";
 package OpenIMServer.conversation;
 import "sdkws/sdkws.proto";
 import "wrapperspb/wrapperspb.proto";
-option go_package = "github.com/OpenIMSDK/protocol/conversation";
+option go_package = "github.com/KyleYe/g-protocol/conversation";
 
 message Conversation{
   string ownerUserID = 1;
